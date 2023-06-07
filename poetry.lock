@@ -23,6 +23,9 @@ category = "main"
 optional = false
 python-versions = ">=3.7"
 
+[package.dependencies]
+typing-extensions = {version = ">=4", markers = "python_version < \"3.11\""}
+
 [package.extras]
 tests = ["pytest", "pytest-asyncio", "mypy (>=0.800)"]
 
@@ -673,8 +676,8 @@ cffi = ["cffi (>=1.11)"]
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.11"
-content-hash = "97861f869be90fabcb97aa4de24d4ac14e088fbc58435d68a33b0d9cddfaa657"
+python-versions = "^3.10"
+content-hash = "4b3340651873b5fb7732edff9bf0dbbe5d806ee5795cbadb0598142d1f729be1"
 
 [metadata.files]
 anyio = []
